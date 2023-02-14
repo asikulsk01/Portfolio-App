@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/my"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:text="Asikul Seikh" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/txtBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Hello! I am Asikul Seikh, Pursuing Master of Computer Application from Techno India Univeristy, West Bengal.
+I am from Berhampore, Murshidabad. My hoby is Teaching, Video edititng. I also like to make application.
+Currently I am learning Android Devlopment from youtube for free.
+I am very keen to learn new technologies in IT. A tech enthusiastic persone.
+My tech stack is: Java, C, Python, R, SQL.
+I am ready to work as a Software Engineer at any product based company either startup or MNCs.
+"
+             />
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/txtTextStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:text="Tech Stack" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:id="@+id/imgJava"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/java" />
+        <ImageView
+            android:id="@+id/imgC"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/c" />
+        <ImageView
+            android:id="@+id/imgPython"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/python" />
+        <ImageView
+            android:id="@+id/imgR"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/r" />
+        <ImageView
+            android:id="@+id/imgSql"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/sql" />
+
+        <ImageView
+            android:id="@+id/imgAndroid"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/android" />
+    </LinearLayout>
+
+
+</LinearLayout>
