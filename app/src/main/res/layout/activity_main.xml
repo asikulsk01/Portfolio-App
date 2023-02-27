@@ -49,39 +49,44 @@ I am ready to work as a Software Engineer at any product based company either st
 
     <TextView
         android:id="@+id/txtTextStack"
-        android:layout_width="match_parent"
+        android:layout_width="95dp"
         android:layout_height="wrap_content"
+        android:text="Tech Stack"
         android:layout_marginTop="20dp"
         android:textColor="@color/cardview_dark_background"
-        android:textStyle="bold"
-        android:text="Tech Stack" />
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="3dp">
+        android:layout_height="82dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imgJava"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/java" />
+
         <ImageView
             android:id="@+id/imgC"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/c" />
+
         <ImageView
             android:id="@+id/imgPython"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/python" />
+
         <ImageView
             android:id="@+id/imgR"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:src="@drawable/r" />
+
         <ImageView
             android:id="@+id/imgSql"
             android:layout_width="65dp"
@@ -94,6 +99,95 @@ I am ready to work as a Software Engineer at any product based company either st
             android:layout_height="65dp"
             android:src="@drawable/android" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtProject"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgTrain"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/train" />
+
+        <ImageView
+            android:id="@+id/imgExam"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/exam" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtEducation"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtPg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Master of Computer Application - CGPA: 9.23" />
+
+        <TextView
+            android:id="@+id/txtUg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bacholer of Computer Application - CGPA: 9.21" />
+
+        <TextView
+            android:id="@+id/txtHsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Higher Secondery - Percentage: 63.6" />
+
+        <TextView
+            android:id="@+id/txtSe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Secondery Education - Percentage: 41.83" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgGithub"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/github" />
 
 
 </LinearLayout>
